@@ -1,75 +1,75 @@
 *{
-	    padding: 0;
-	        margin: 0;
-		    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	    }
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
-	    .container{
-		        background-color: rgb(173, 201, 228);
-			    min-height: 100vh;
-			        width: 100%;
-			}
+.container{
+    background-color: rgb(173, 201, 228);
+    min-height: 100vh;
+    width: 100%;
+}
 
-			header{
-				    display: flex;
-				        justify-content: space-between;
-					    align-items: center;
-					        width: 80%;
-						    margin: auto;
-						        padding: 20px, 0;
-						}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px, 0;
+}
 
-						.logo{
-							    width: 60px;
-							        font-size: 50px;
-								    color: rgba(231, 242, 243, 0.974);
-								        letter-spacing: 4px;
-									    font-family: Cursive;
-									        font-style: italic;
-										   font-weight: Bold; 
-										      text-decoration: none;
-									      }
+.logo{
+    width: 60px;
+    font-size: 50px;
+    color: rgba(231, 242, 243, 0.974);
+    letter-spacing: 4px;
+    font-family: Cursive;
+    font-style: italic;
+   font-weight: Bold; 
+   text-decoration: none;
+}
 
-									      ul li{
-										          display: inline-block;
-										  }
+ul li{
+    display: inline-block;
+}
 
-										  ul li a{
-											  color: beige;
-											  text-decoration: none;
-											  margin: 0 10px;
-											  font-size: 25px;
-										  }
+ul li a{
+color: beige;
+text-decoration: none;
+margin: 0 10px;
+font-size: 25px;
+}
 
-										  .contant{
-											      display: flex;
-											          justify-content: space-between;
-												      margin: auto;
-												          align-items: center;
-													      width: 80%;
-												      }
+.contant{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    width: 80%;
+}
 
-												      .contant .text{
-													          width: 40%;
-														      color: rgba(233, 233, 216, 0.907);
-													      }
-													      .contant .text h2{
-														          font-size: 35px;
-															      text-transform: uppercase;
-															          padding-bottom: 10px;
-																      font-style: oblique;
-																          letter-spacing: 2px;
-																  }
-																  .contant .text p{
-																	      font-size: 18px;
-																	          margin: 20px, 0;
-																	  }
+.contant .text{
+    width: 40%;
+    color: rgba(233, 233, 216, 0.907);
+}
+.contant .text h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-style: oblique;
+    letter-spacing: 2px;
+}
+.contant .text p{
+    font-size: 18px;
+    margin: 20px, 0;
+}
 
-																	  .contant .text a{
-																		      text-decoration: none;
-																		          color: aliceblue;
-																			      background-color: rgb(132, 132, 197);
-																			          padding: 8px 15px;
-																				      border-radius: 20px;
-																				          position: absolute;
-																				  }
+.contant .text a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(132, 132, 197);
+    padding: 8px 15px;
+    border-radius: 20px;
+    position: absolute;
+}
