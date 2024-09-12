@@ -5,9 +5,11 @@
 }
 
 .container{
-    background-color: rgb(173, 201, 228);
+    background-color: rgba(207, 59, 128, 0.48);
     min-height: 100vh;
     width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 header{
@@ -20,8 +22,8 @@ header{
 }
 
 .logo{
-    width: 60px;
-    font-size: 50px;
+    width: 70px;
+    font-size: 80px;
     color: rgba(231, 242, 243, 0.974);
     letter-spacing: 4px;
     font-family: Cursive;
@@ -54,14 +56,14 @@ font-size: 25px;
     color: rgba(233, 233, 216, 0.907);
 }
 .contant .text h2{
-    font-size: 35px;
+    font-size: 55px;
     text-transform: uppercase;
     padding-bottom: 10px;
     font-style: oblique;
     letter-spacing: 2px;
 }
 .contant .text p{
-    font-size: 18px;
+    font-size: 30px;
     margin: 20px, 0;
 }
 
@@ -72,4 +74,31 @@ font-size: 25px;
     padding: 8px 15px;
     border-radius: 20px;
     position: absolute;
+}
+
+.contant .IMAGES{
+    width: 50%;
+}
+
+.contant .IMAGES img{
+    width: 600px;
+    padding: 20px 15px;
+    margin-right: 20px;
+}
+
+.icons{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icons img{
+    width: 70px;
+    cursor: pointer;
+    transition: 0.5%;
+}
+
+.icons img:hover{
+    transform: scale(2.1);
 }
