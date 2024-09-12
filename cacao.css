@@ -102,3 +102,24 @@ font-size: 25px;
 .icons img:hover{
     transform: scale(2.1);
 }
+
+.footer{
+    background-color: rgb(177, 148, 224);
+    padding: 20px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer .cont{
+    font-size: 20px;
+    color: beige;
+}
+.footer .info{
+    size: 5px;
+    margin: auto;
+    display: flex;
+    width: 10px;
+    align-items:self-end;
+    justify-content: space-between;
+}
