@@ -1,3 +1,5 @@
+/* make function for change the color and pic */
+
 let mainI = document.querySelector('.mainI');
 let container = document.querySelector('.container');
 

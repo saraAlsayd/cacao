@@ -1,0 +1,28 @@
+/*make css for news*/
+
+/*make header css for page */
+.main{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: larger;
+    background-image: url(IMG/Fun-Facts-About-Chocolate_720x720.webp);
+}
+
+/*make css h1*/
+.main h1{
+    font-style: oblique;
+    color: azure;
+    align-items: center;
+    padding-left: 38%;
+}
+
+/*make css fro container*/
+.container h2{
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: 900;
+    color: rgb(240, 169, 14);
+}
