@@ -105,21 +105,25 @@ font-size: 25px;
 
 .footer{
     background-color: rgb(177, 148, 224);
-    padding: 20px;
+    padding: 10px;
     display: flex; 
     justify-content: space-between;
     align-items: center;
+    margin: auto;
+    size: 20px;
 
 }
 .footer .cont{
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
     color: beige;
 }
 .footer .info{
-    size: 5px;
+    size: large;
+    width: 15px;
+    justify-content: space-between;
     margin: auto;
     display: flex;
-    width: 10px;
-    align-items:self-end;
-    justify-content: space-between;
 }
+
