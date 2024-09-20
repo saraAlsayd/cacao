@@ -1,9 +1,11 @@
+/*make padding and margin for all*/
+
 *{
     padding: 0;
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+/*edit the container */
 .container{
     background-color: rgba(207, 59, 128, 0.48);
     min-height: 100vh;
@@ -11,7 +13,7 @@
     overflow: hidden;
     position: relative;
 }
-
+/*make up the header*/
 header{
     display: flex;
     justify-content: space-between;
@@ -20,7 +22,7 @@ header{
     margin: auto;
     padding: 20px, 0;
 }
-
+/*make up the logo*/
 .logo{
     width: 70px;
     font-size: 80px;
@@ -32,6 +34,7 @@ header{
    text-decoration: none;
 }
 
+/* editing the navbar*/
 ul li{
     display: inline-block;
 }
@@ -43,6 +46,7 @@ margin: 0 10px;
 font-size: 25px;
 }
 
+/*make up the contant*/
 .contant{
     display: flex;
     justify-content: space-between;
@@ -74,6 +78,12 @@ font-size: 25px;
     padding: 8px 15px;
     border-radius: 20px;
     position: absolute;
+    transition: 1s ease;
+}
+
+.contant .text a:hover{
+    background-color: blue;
+    transform: scale(1.1);
 }
 
 .contant .IMAGES{
@@ -103,6 +113,7 @@ font-size: 25px;
     transform: scale(2.1);
 }
 
+/*foter css*/
 .footer{
     background-color: rgb(177, 148, 224);
     padding: 10px;
@@ -110,7 +121,7 @@ font-size: 25px;
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    size: 20px;
+    size: 30px;
 
 }
 .footer .cont{
@@ -119,11 +130,12 @@ font-size: 25px;
     text-transform: uppercase;
     color: beige;
 }
-.footer .info{
-    size: large;
-    width: 15px;
-    justify-content: space-between;
-    margin: auto;
+.footer .info a{
     display: flex;
+    font-size: 1.7em;
+    padding-right:10px;
+    align-items: center;
+    margin: auto;
+    text-decoration: none;
 }
 

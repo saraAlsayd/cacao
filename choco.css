@@ -1,0 +1,53 @@
+/*make css for choclate cards*/
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgba(224, 130, 75, 0.743);
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/*edit the contant*/
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*fixed the cards */
+
+.card{
+    background-color: white;
+    width: 25.21em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 24px;
+    margin: 15px;
+    transition: 1s ease;
+}
+
+/*edit the contant of the cards and make some effects*/
+
+.card:hover{
+    transform: scale(1.1);
+}
+.img{
+    font-size: larger;
+    text-align: center;
+    size: 40px;
+}
+
+.text{
+    text-align: center;
+}
+
+.text h3{
+    color: rgba(165, 89, 18, 0.872);
+    font-size: 2em;
+    font-weight: 600;
+    margin: 10px;
+}
